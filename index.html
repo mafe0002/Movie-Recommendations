@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Recommendations</title>
+    <meta name="viewport" content="width=device-width" /><link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/main.css" />
+</head>
+<body>
+    <main class="active">
+        <header class="search">
+            <img id="back-button" src="IMG/caret-left-md.svg" class="iconic iconic-md back-button" data-direction="left" alt="Back Button" title="Back"/>
+            <img id="search-button" class="iconic iconic-md" src="IMG/magnifying-glass-md.svg" alt="Search" title="Search"/>
+            <input type="text" autofocus id="search-input" placeholder="search" />
+        </header>
+        
+        <div class="page" id="search-results">
+            <section class="title">
+                
+            </section>
+            <section class="content"></section>
+        </div>
+        
+        <div class="page" id="recommend-results">
+            <section class="title"></section>
+            
+            <section class="content">
+                
+            </section>
+        </div>
+        
+    </main>
+    <footer>
+    	<div class="attribution">
+               <img src="IMG/312x276-primary-blue.png" alt="The Movie DB" >
+            </div>
+    </footer>
+    
+    <div class="loading not">
+        <img class="iconic" src="IMG/loop-circular-md.svg" title="loop circular"/>
+    </div>
+    
+    <script src="JS/iconic.min.js"></script>
+    <script src="JS/key.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
